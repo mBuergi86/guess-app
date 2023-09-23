@@ -19,7 +19,7 @@ jobs:
             - name: Build
               run: go build -o ~/artifact
             - name: Test
-              run: go test -v ~/artifact
+              run: go test -v guess.go
             - name: Run
               run: go run guess.go
             - name: Show build
